@@ -1,0 +1,27 @@
+{
+  "name": "nasa-api",
+  "version": "1.0.0",
+  "description": "API for the Nasa Dashboard",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "watch": "nodemon src/server.js"
+  },
+  "author": "Andrei Radu",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^4.16.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.9",
+    "supertest": "^6.1.3"
+  }
+}
